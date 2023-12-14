@@ -18,4 +18,12 @@ public class Vote {
     public Boolean getVote() {
         return vote;
     }
+
+    @Override
+    public String toString() {
+        return "Vote{" +
+                "voter='" + voter + '\'' +
+                ", vote=" + vote +
+                '}';
+    }
 }
